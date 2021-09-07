@@ -1,0 +1,27 @@
+
+     @media (min-width: 250px) {
+        .cart img{
+            width: 100px;
+        }
+    }
+    @media (min-width: 340px) {
+        .cart img{
+            width: 200px;
+        }
+    }
+    @media (min-width: 370px) {
+        .cart img{
+            width: 230px;
+        }
+    }
+    @media (min-width: 475.98px) {
+        .cart img{
+            width: 300px;
+        }
+    }
+    
+    @media (min-width: 700px) {
+        .cart img{
+            width: 500px;
+        }
+    }

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 225, 93);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(253, 178, 17);
+}
+
+
+
+.block {
+    display: none;
+    padding: 2em;
+    margin: 2em;
+}
+
+.container {
+    width: 80%;
+    margin:0 10% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-content {
+    width: 90%;
+    border: none;
+    border: 1px solid black;
+    border-radius: 50px 0 0 50px;
+    background-color: rgb(253, 178, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.registration {
+    display: flex;
+}
+.circle{
+    display: none;  
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(253, 203, 203); 
+    border-top-right-radius: 50px; 
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 0;
+  
+}
+.circle-style{
+    -moz-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+    /* Для Firefox */
+    -ms-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+    /* Для IE */
+    -webkit-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+   transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5) ; 
+}
+
+
+.button-registration {
+    background-color: rgb(253, 203, 203);
+    color: rgb(98, 0, 255);
+    border: none;
+    border: 1px solid black;
+    border-radius: 50px 0 0 50px;
+}
+
+.button-registration:hover {
+
+    color: rgb(253, 203, 203);
+    -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Firefox */
+    -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для IE */
+    -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Opera */
+    transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+
+}
+.cart{
+     max-width: 500px;
+    max-height: 400px;
+}
+.cart img{
+    max-width: 500px;
+    max-height: 400px;
+   border-radius: 30px ;
+    border: 1px solid;
+    object-fit: cover;
+}
+
+
+
+.conteiner_footer {
+    width: 90%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
