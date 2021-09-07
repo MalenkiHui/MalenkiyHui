@@ -26,9 +26,9 @@ footer {
 
 
 .block {
-    display: none;
     padding: 2em;
     margin: 2em;
+    opacity:0;
 }
 
 .container {
@@ -50,10 +50,15 @@ footer {
     justify-content: space-around;
 }
 
+#rename2{
+    display: none;
+}
+
 .registration {
     display: flex;
 }
 .circle{
+    
     display: none;  
     width: 40px;
     height: 40px;
@@ -62,7 +67,6 @@ footer {
     border-top-right-radius: 50px; 
     border: 1px solid rgb(0, 0, 0);
     border-bottom: 0;
-  
 }
 .circle-style{
     -moz-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
