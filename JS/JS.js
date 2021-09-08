@@ -11,35 +11,13 @@ $(function () {
 if(jQuery.support.touch){
   $(".button-registration").on('click touchstart', function () {
     if($("#rename1").css("display", "block")){
-    $('.button-registration').css({
-      'color': rgb(253, 203, 203),
-        '-moz-transform': 'translateY(80px) rotate(0.25turn) scale(3, 1.5)',
-        /* Для Firefox */
-        '-ms-transform': 'translateY(80px) rotate(0.25turn) scale(3, 1.5)',
-        /* Для IE */
-        '-webkit-transform': 'translateY(80px) rotate(0.25turn) scale(3, 1.5)',
-        /* Для Safari, Chrome, iOS */
-        '-o-transform': 'translateY(80px) rotate(0.25turn) scale(3, 1.5)',
-        /* Для Opera */
-        'transform':'translateY(80px) rotate(0.25turn) scale(3, 1.5)'
-    });
+    $('.button-registration').addClass('active');
     $(".circle").css('display', 'block');
     $("#rename1").css("display", "none");
     $("#rename2").css("display", "block");
 
   }else {
-    $('.button-registration').css({
-      'color': rgb(253, 203, 203),
-        '-moz-transform': '',
-        /* Для Firefox */
-        '-ms-transform': '',
-        /* Для IE */
-        '-webkit-transform': '',
-        /* Для Safari, Chrome, iOS */
-        '-o-transform': '',
-        /* Для Opera */
-        'transform':''
-    }); // задаем функцию, которая срабатывает, когда указатель выходит из элемента 	
+    $('.button-registration').removeClass('active');
     $(".circle").css("display", "none");
     $("#rename1").css("display", "block");
     $("#rename2").css("display", "none");
