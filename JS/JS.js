@@ -27,22 +27,26 @@ $(function () {
     $('.button-registration').addClass('active');
     $(".circle").css('display', 'block');
     $("#rename1").css("display", "none");
-    $("#rename2").css("display", "block");
+    $("#rename2").css("display", "block");  
   }
 
   if(window.matchMedia("(pointer: coarse)").matches) {
-  $(".button-registration").click =clickButton;
-}
+  $(".registration").click =clickButton;
+}else{ 
 
   $(document).ready(function () {
     $(".button-registration").hover(function () { // задаем функцию при наведении курсора на элемент	
+      $('.button-registration').addClass('active');
       $(".circle").css('display', 'block');
       $("#rename1").css("display", "none");
       $("#rename2").css("display", "block");
     }, function () { // задаем функцию, которая срабатывает, когда указатель выходит из элемента 	
+      $('.button-registration').removeClass('active');
       $(".circle").css("display", "none");
       $("#rename1").css("display", "block");
       $("#rename2").css("display", "none");
 
     });
   });
+}
+
