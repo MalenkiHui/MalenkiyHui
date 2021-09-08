@@ -9,7 +9,7 @@ $(function () {
 });
 
 if (jQuery.support.touch) {
-  $(".button-registration").on('click touchstart', function () {
+  $(".button-registration").click(function () {
     if ($('.button-registration').hasClass('active')) {
       $('.button-registration').removeClass('active');
       $(".circle").css("display", "none");
