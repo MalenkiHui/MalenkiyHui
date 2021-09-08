@@ -78,7 +78,22 @@ footer {
     -o-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
    transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5) ; 
 }
+@media (hover: hover) {
+    .button-registration:hover {
 
+        color: rgb(253, 203, 203);
+        -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Firefox */
+        -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для IE */
+        -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Safari, Chrome, iOS */
+        -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Opera */
+        transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    
+    }
+  }
 
 .button-registration {
     background-color: rgb(253, 203, 203);
@@ -88,20 +103,7 @@ footer {
     border-radius: 50px 0 0 50px;
 }
 
-.button-registration:hover {
 
-    color: rgb(253, 203, 203);
-    -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Firefox */
-    -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для IE */
-    -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Safari, Chrome, iOS */
-    -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Opera */
-    transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-
-}
 .cart{
      max-width: 500px;
     max-height: 400px;
