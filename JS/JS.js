@@ -22,7 +22,10 @@ $(function () {
       $("#rename2").css("display", "block");
     }
   };
- $(".button-registration").click =clickButton;
+  if(window.matchMedia("(pointer: coarse)").matches) {
+  $(".button-registration").click =clickButton;
+}
+
   $(document).ready(function () {
     $(".button-registration").hover(function () { // задаем функцию при наведении курсора на элемент	
       $(".circle").css('display', 'block');
