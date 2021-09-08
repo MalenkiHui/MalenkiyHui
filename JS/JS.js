@@ -11,17 +11,25 @@ $(function () {
 
   function clickButton () {
     if ($('.button-registration').hasClass('active')) {
-      $('.button-registration').removeClass('active');
-      $(".circle-style").css("display", "none");
-      $("#rename1").css("display", "block");
-      $("#rename2").css("display", "none");
+      clickButton1();
     } else {
-      $('.button-registration').addClass('active');
-      $(".circle").css('display', 'block');
-      $("#rename1").css("display", "none");
-      $("#rename2").css("display", "block");
+      clickButton2();
     }
   };
+
+  function clickButton1(){
+    $('.button-registration').removeClass('active');
+    $(".circle").css("display", "none");
+    $("#rename1").css("display", "block");
+    $("#rename2").css("display", "none");
+  }
+  function clickButton2(){
+    $('.button-registration').addClass('active');
+    $(".circle").css('display', 'block');
+    $("#rename1").css("display", "none");
+    $("#rename2").css("display", "block");
+  }
+
   if(window.matchMedia("(pointer: coarse)").matches) {
   $(".button-registration").click =clickButton;
 }
