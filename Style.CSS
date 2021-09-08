@@ -91,8 +91,8 @@ footer {
     border: 1px solid black;
     border-radius: 50px 0 0 50px;
 }
-.active {
-    background-color: rgb(170, 0, 0);
+.active{
+    
 
     -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
     /* Для Firefox */
@@ -104,22 +104,22 @@ footer {
     /* Для Opera */
     transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
 }
-@media (hover: hover) {
+/* @media (hover: hover) {
     .button-registration:hover {
 
         color: rgb(253, 203, 203);
         -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
         /* Для Firefox */
-        -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
         /* Для IE */
-        -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
         /* Для Safari, Chrome, iOS */
-        -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
         /* Для Opera */
-        transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);  */
 
-    }
-}
+    /* } */ 
+/* } */ 
 
 .cart {
     max-width: 500px;

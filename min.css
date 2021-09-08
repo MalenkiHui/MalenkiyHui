@@ -19,13 +19,12 @@
         .cart img{
             width: 300px;
         }
-        .active{
-            background-color: aquamarine;
-        }
+        
     }
     
     @media (min-width: 700px) {
         .cart img{
             width: 500px;
         }
+      
     }
