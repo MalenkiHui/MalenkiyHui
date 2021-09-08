@@ -61,65 +61,72 @@ footer {
 .circle {
 
     display: none;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
     background-color: rgb(253, 203, 203);
     border-top-right-radius: 50px;
     border: 1px solid rgb(0, 0, 0);
     border-bottom: 0;
+    position: relative;
+   
 }
 
-.circle-style {
+.circle-style { 
+  
+    transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
     -moz-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
     /* Для Firefox */
     -ms-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
     /* Для IE */
-    -webkit-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+    -webkit-transform: translateY(187px) translateX(-60px) rotate(0.75turn) scale(3, 1.5);
     /* Для Safari, Chrome, iOS */
-    -o-transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
-    transform: translateY(187px) translateX(-57px) rotate(0.75turn) scale(3, 1.5);
+    -o-transform: translateY(220px) translateX(-64px) rotate(0.75turn) scale(3, 1.5);
+    /* Для Opera */
+   
 }
 
 
 
 
 .button-registration {
+
     background-color: rgb(253, 203, 203);
     color: rgb(98, 0, 255);
     border: none;
     border: 1px solid black;
     border-radius: 50px 0 0 50px;
+    transition: width 2s, height 2s, background-color 2s, transform 1s;
 }
 .active{
     
-
-    -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Firefox */
-    -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для IE */
-    -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Safari, Chrome, iOS */
-    -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-    /* Для Opera */
-    transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+-moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Firefox */
+        -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для IE */
+       -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Safari, Chrome, iOS */
+         -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+        /* Для Opera */
+        transform: translateY(80px) rotate(0.25turn) scale(3, 1.5) ;
+   
 }
-/* @media (hover: hover) {
+ @media (hover: hover) {
     .button-registration:hover {
 
         color: rgb(253, 203, 203);
-        -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-        /* Для Firefox */
-        /* -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-        /* Для IE */
-        /* -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-        /* Для Safari, Chrome, iOS */
-        /* -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
-        /* Для Opera */
-        /* transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);  */
+          -moz-transform: translateY(80px) rotate(0.25turn) scale(3.2, 1.4);
+    /* Для Firefox */
+    -ms-transform: translateY(80px) rotate(0.25turn) scale(3.2, 1.4);
+    /* Для IE */
+    -webkit-transform: translateY(80px) rotate(0.25turn) scale(3.2, 1.4);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: translateY(80px) rotate(0.25turn) scale(3.2, 1.4);
+    /* Для Opera */
+    transform: translateY(80px) rotate(0.25turn) scale(3.2, 1.4);
 
-    /* } */ 
-/* } */ 
+    } 
+} 
 
 .cart {
     max-width: 500px;

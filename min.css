@@ -14,11 +14,47 @@
             width: 230px;
         }
     }
-  
     @media (min-width: 475.98px) {
         .cart img{
             width: 300px;
         }
+        
+    }
+    @media (max-width: 440.98px) {
+        .active{
+            color: rgb(253, 203, 203);
+            -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 0.5);
+                    /* Для Firefox */
+                    -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 0.5);
+                    /* Для IE */
+                   -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 0.5);
+                    /* Для Safari, Chrome, iOS */
+                     -o-transform: translateY(80px) rotate(0.25turn) scale(3, 0.5);
+                    /* Для Opera */
+                    transform: translateY(80px) rotate(0.25turn) scale(3, 0.5) ;
+               
+            }
+            .circle-style { 
+  
+                transform: translateY(187px) translateX(-04px) rotate(0.75turn) scale(3, 1.5);
+                -moz-transform: translateY(187px) translateX(0px) rotate(0.75turn) scale(3, 1.5);
+                /* Для Firefox */
+                -ms-transform: translateY(187px) translateX(04px) rotate(0.75turn) scale(3, 1.5);
+                /* Для IE */
+                -webkit-transform: translateY(187px) translateX(0px) rotate(0.75turn) scale(3, 1.5);
+                /* Для Safari, Chrome, iOS */
+                -o-transform: translateY(220px) translateX(0px) rotate(0.75turn) scale(3, 1.5);
+                /* Для Opera */
+               
+            }
+            .circle {
+
+                width: 25px;
+                height: 25px;
+               
+               
+            }
+          
         
     }
     
