@@ -14,9 +14,13 @@
             width: 230px;
         }
     }
+  
     @media (min-width: 475.98px) {
         .cart img{
             width: 300px;
+        }
+        .active{
+            background-color: aquamarine;
         }
     }
     
