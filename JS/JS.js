@@ -31,7 +31,7 @@ $(function () {
   }
 
   if(window.matchMedia("(pointer: coarse)").matches) {
-  $(".registration").click =clickButton;
+  $(".button-registration").click =clickButton;
 }else{ 
 
   $(document).ready(function () {
