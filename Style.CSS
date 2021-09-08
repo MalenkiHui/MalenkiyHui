@@ -94,7 +94,18 @@ footer {
     
     }
   }
-
+.active{
+    color: rgb(253, 203, 203);
+    -moz-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Firefox */
+    -ms-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для IE */
+    -webkit-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+    /* Для Opera */
+    transform: translateY(80px) rotate(0.25turn) scale(3, 1.5);
+}
 .button-registration {
     background-color: rgb(253, 203, 203);
     color: rgb(98, 0, 255);
